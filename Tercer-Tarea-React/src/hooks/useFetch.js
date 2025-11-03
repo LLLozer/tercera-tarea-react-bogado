@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-import { useCounter } from "./useCounter";
 
 export const useFetch = (count) => {
   const [state, setState] = useState({
