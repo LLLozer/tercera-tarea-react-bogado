@@ -5,6 +5,7 @@ export const useCounter = (initialValue) => {
 
   const handleIncrement = () => {
     setCount(count + 1);
+    console.log(count);
   };
 
   const handleDecrement = () => {
